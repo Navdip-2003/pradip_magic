@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/5295a543c2.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/dashbord.css">
+   <link rel="stylesheet" href="../css/single_p.css">
+    <title>Singal Product</title>
+</head>
+
+<body>
+
+    <!---------nevbar---------->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  top-header px-lg-4 py-lg-3 position-sticky top-0 z-index">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" id="eventX" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false"
+                value="false" aria-label="Toggle navigation" onclick="getX(this)">
+                <i class="fas fa-bars color-x1"></i>
+            </button>
+
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <div class="d-flex justify-content-center d-lg-block">
+                    <a class="navbar-brand mt-2  mt-lg-0" href="#">
+                        <img src="../img/magicpin-logo2.png" height="40" alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                </div>
+
+
+                <div class="d-flex m-auto justify-content-center mt-4 mt-lg-auto">
+                    <div class=" m-auto">
+                        <form action="" class="form-group">
+                            <div class="d-flex search-x-round">
+                                <input type="text" class="form-control rounded-0" placeholder="Search...">
+                                <button class="btn bg-x1 rounded-0">search</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="d-lg-none" id="Sharp-X">
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse mt-4 " id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+
+                    <!-- Left links -->
+                    <div class="navbar-nav  mb-lg-0">
+
+                        <div class="nav-item m-auto">
+                            <button class="btn bg-x1" type="button" data-mdb-toggle="offcanvas"
+                                data-mdb-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                menu option
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Left links -->
+                </div>
+
+            </div>
+
+            <!-- Collapsible wrapper -->
+
+            <div class="d-flex ms-auto  my-lg-auto " id="targetX">
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+
+                    <!-- Avatar -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                            id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="d-flex">
+                                <p class="m-0 me-2 a-col-x">My Account </p>
+                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                    height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                <p class="a-col-x m-0"><span><i class="fa-solid fa-caret-down ms-2"></i></span></p>
+                            </div>
+
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                            <li>
+                                <a class="dropdown-item" href="#">My profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+
+
+            </div>
+
+
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+    <!---------nevbar---------->
+
+    <!------------left nevbar ---------------------->
+
+    <div class="left-x-nev header d-none d-lg-block p-4 pt-2">
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x ">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x ">
+                <p class="m-auto">Orders</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Add product</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x active-page">
+                <p class="m-auto">Products</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+    </div>
+
+    <!------------left nevbar end---------------------->
+
+    <div class="d-flex">
+        <div class="  hero-section-xr ms-auto">
+          <div class="p-4">
+            <div class="d-flex">
+              <a href="./Products.html" class="color-x1"><p><span class="me-2"><i class="fa-solid fa-arrow-left"></i></span>Back to Products</p></a>
+           </div>
+            <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6 border-end">
+                    <div class="d-flex flex-column justify-content-center">
+                      <div class="main_image"> <img src="../img/product/p1.avif" id="main_product_image" width="350">
+                      </div>
+                      <div class="thumbnail_images ">
+                        <ul id="thumbnail" class="d-block d-sm-flex d-md-block d-xl-flex ps-0">
+                            <div class="d-flex">
+                                <li><img onclick="changeImage(this)" src="../img/product/p2.avif" width="70"></li>
+                                <li><img onclick="changeImage(this)" src="../img/product/p3.avif" width="70"></li>
+                            </div>
+                          <div class="d-flex">
+                            <li><img onclick="changeImage(this)" src="../img/product/p4.avif" width="70"></li>
+                            <li><img onclick="changeImage(this)" src="../img/product/p5.avif" width="70"></li>
+                          </div>
+                         
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="p-3 mt-1 right-side">
+                      <div class="d-flex  align-items-center">
+                        <h3>IIlana</h3> 
+                      </div>
+                      <div class="mt-2 pr-3 ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua</p>
+                      </div>
+                      <h3>$430.99</h3>
+                      
+                      <div class="mt-3"> <span class="fw-bold">Available :</span>
+                        <span class="text-success">In Stack</span>
+                      </div>
+                      <div class="mt-2"> <span class="fw-bold">Sold by :</span>
+                        <span class="">Nayka private limitade</span>
+                      </div>
+                      <div class="colors mt-3">
+                        <div class="alert alert-primary p-2" role="alert">
+                          Get Flat 10% Discount on first order.
+                        </div>
+                      </div>
+                      <div class=" d-flex flex-row mt-4 gap-3">
+                         <button class="btn btn-bg-x1 btn-lg">Delete</button>
+                        <button class="btn bg-x1 btn-lg">Edit</button>
+                      </div>
+          
+                    </div>
+          
+                    <div class="row mt-2 mb-3 px-4">
+                      <div class="col-12  col-xl-6 d-flex m-2 m-xl-0">
+                        <img src="../img/genuine.png" alt="" width="40px" height="40px">
+                        <p class="m-auto ms-3 color-x">100% Genuine Products</p>
+                      </div>
+                      <div class="col-12 col-xl-6 d-flex m-2 m-xl-0">
+                        <img src="../img/return-box.png" alt="" width="38px" height="38px">
+                        <p class="m-auto ms-3 color-x">Easy Return Policy</p>
+                      </div>
+          
+                    </div>
+          
+                  </div>
+                </div>
+                <!--------------------here product section complete----------------------->
+                <!--------------------here discription------------------>
+                <!-- Tabs navs -->
+                <ul class="nav nav-tabs nav-fill mt-3 px-4" id="ex1" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1" role="tab"
+                      aria-controls="ex2-tabs-1" aria-selected="true">Description</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2" role="tab"
+                      aria-controls="ex2-tabs-2" aria-selected="false">Ingredients</a>
+                  </li>
+                 
+                </ul>
+                <!-- Tabs navs -->
+          
+                <!-- Tabs content -->
+                <div class="tab-content" id="ex2-content">
+                  <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex2-tab-1">
+                    <!-----------------------description----------------------->
+                    <div class="px-4">
+                      <div class="des-sec mb-4">
+                        <div class="mb-4">
+                          <span class="fw-bold">Description : </span>
+                          <p class="mt-2"><span><i class="fa-solid fa-arrow-right color-x me-2"></i></span>Lancome Advanced
+                            Genifique Face Serum is Lancome's #1 serum for all women, all ages, all skin types and tones. This
+                            serum strengthens the skin's moisture barrier in one drop. A strong skin moisture barrier helps to
+                            lock in hydration and defend against external aggressors including pollution, cold, and dry weather.
+                            Formulated with 10% Bifidus Prebiotic, Hyaluronic Acid, and Vitamin Cg this anti-aging serum helps to
+                            improve the look of dull skin and the signs of aging for visibly glowing skin.</p>
+                          <p class="mt-2"><span><i class="fa-solid fa-arrow-right color-x me-2"></i></span>Lancome Advanced
+                            Genifique Face Serum is Lancome's #1 serum for all women, all ages, all skin types and tones. This
+                            serum strengthens the skin's moisture barrier in one drop. A strong skin moisture barrier helps to
+                            lock in hydration and defend against external aggressors including pollution, cold, and dry weather.
+                            Formulated with 10% Bifidus Prebiotic, Hyaluronic Acid, and Vitamin Cg this anti-aging serum helps to
+                            improve the look of dull skin and the signs of aging for visibly glowing skin.</p>
+                        </div>
+          
+                        <div class="mt-2"> <span class="fw-bold">Expiry Date : </span>
+                          <span class="">January 2025</span>
+                        </div>
+                        <div class="mt-1"> <span class="fw-bold">Country of Origin :</span>
+                          <span class=""> France</span>
+                        </div>
+                        <div class="mt-1"> <span class="fw-bold">Sold by :</span>
+                          <span class="">Nayka private limitade</span>
+                        </div>
+                        <div class="mt-2"> <span class="fw-bold">Address :</span>
+                          <span class="">Fapagau Et Compagnie 4, Rue Jules Vercruysse Fr-02430 Gauchy, France</span>
+                        </div>
+          
+                      </div>
+                    </div>
+                    <!-----------------------description----------------------->
+                  </div>
+          
+                  <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+                    <!-----------------------ing----------------------->
+                    <div class="px-4">
+                      <div class="des-sec mb-4">
+                        <div>
+                          <span class="fw-bold"> Ingredients : </span>
+                          <p class="mt-2"><span><i class="fa-solid fa-arrow-right color-x me-2"></i></span>Water/Aqua/Eau, Sodium
+                            Lauryl Sulfate, Sodium Laureth Sulfate, Sodium Chloride, Cocamidopropyl Betaine, Glycol Distearate,
+                            Dimethicone, Sodium Citrate, Citric Acid, Cocamide MEA, Sodium Xylenesulfonate, Fragrance/Parfum,
+                            Sodium Benzoate, Panthenol, Glycerin, Salicylic Acid, Tetrasodium EDTA, Trisodium Ethylenediamine
+                            Disuccinate, Guar Hydroxypropyltrimonium Chloride, Methylparaben, Sodium Hydroxide, Limonene, Benzyl
+                            Salicylate, Hexyl Cinnamal, Linalool, Lycium Barbarum Fruit Extract, Oleic Acid, Lactic Acid,
+                            Potassium Sorbate, Magnesium Nitrate, Methylchloroisothiazolinone, Magnesium Chloride,
+                            Methylisothiazolinone</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-----------------------ing----------------------->
+                  </div>
+          
+                 
+                </div>
+                <!-- Tabs content -->
+             
+          
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!------------left nevbar ---------------------->
+
+
+    <!----------small screen nevbar--------------->
+
+
+    <div class="offcanvas offcanvas-start wide-x" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+
+
+        <!---------smaller left nevbar----------->
+        <div class="left-x-nev header d-lg-none">
+
+            <div class="offcanvas-header d-flex ">
+                <div class="close-cx ms-auto">
+                    <button type="button" class="btn bg-x1 btn-sm button-cx p-0 " data-mdb-dismiss="offcanvas"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="p-4 pt-0">
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Orders</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-------------------------------------------------------------------------------------------->
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="../js/margin.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/sales.js"></script>
+    <script src="../js/tables.js"></script>
+    <script src="../js/single_p.js"></script>
+</body>
+
+</html>

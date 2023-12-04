@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/5295a543c2.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/dashbord.css">
+
+    <title>Orders</title>
+</head>
+
+<body>
+
+    <!---------nevbar---------->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  top-header px-lg-4 py-lg-3 position-sticky top-0 z-index">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" id="eventX" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false"
+                value="false" aria-label="Toggle navigation" onclick="getX(this)">
+                <i class="fas fa-bars color-x1"></i>
+            </button>
+
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <div class="d-flex justify-content-center d-lg-block">
+                    <a class="navbar-brand mt-2  mt-lg-0" href="#">
+                        <img src="../img/magicpin-logo2.png" height="40" alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                </div>
+
+
+                <div class="d-flex m-auto justify-content-center mt-4 mt-lg-auto">
+                    <div class=" m-auto">
+                        <form action="" class="form-group">
+                            <div class="d-flex search-x-round">
+                                <input type="text" class="form-control rounded-0" placeholder="Search...">
+                                <button class="btn bg-x1 rounded-0">search</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="d-lg-none" id="Sharp-X">
+                <!-- Collapsible wrapper -->
+                
+
+            </div>
+
+            <!-- Collapsible wrapper -->
+
+            <div class="d-flex ms-auto  my-lg-auto " id="targetX">
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+
+                    <!-- Avatar -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                            id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="d-flex">
+                                <p class="m-0 me-2 a-col-x">My Account </p>
+                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                    height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                <p class="a-col-x m-0"><span><i class="fa-solid fa-caret-down ms-2"></i></span></p>
+                            </div>
+
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                            <li>
+                                <a class="dropdown-item" href="#">My profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+
+
+            </div>
+
+
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+    <div class="container my-4">
+        <div class="card">
+         <div id="ui-view"><div><div class="">
+           <div class="card-header d-flex">
+            <a href="./orders.html" class="color-x1"><span class="me-1"><i class="fa-solid fa-arrow-left"></i></span> Back to home</a>
+            <p class=" m-0 ms-auto me-3"> Invoice<strong class="color-x1 ms-1">#BBB-245432</strong></p>
+           </div>
+           
+           
+           
+           </div>
+           <div class="card-body">
+           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 g-lg-0 mb-4">
+
+            <div class="col">
+                <h6 class="mb-3 color-x1">From:</h6>
+                <div><strong>Facebook Inc.</strong></div>
+                <div>345, SA Road</div>
+                <div>Cupertino CA 92154</div>
+                <div>Email: billings@facebook.com</div>
+                <div>Phone: +1 894 989 9898</div>
+                </div>
+
+           <div class="col">
+           <h6 class="mb-3 color-x1">To:</h6>
+           <div><strong >BBBootstrap Inc.</strong></div>
+           <div>546 Aston Avenue</div>
+           <div>NYC, NY 12394</div>
+           <div>Email: contact@bbbootstrap.com</div>
+           <div>Phone: +1 848 389 9289</div>
+           </div>
+           
+           <div class="col">
+           <h6 class="mb-3 color-x1">Details:</h6>
+           <div>Invoice<strong> #BBB-245432</strong></div>
+           <div>March 22, 2020</div>
+           <div>VAT: BBB0909090</div>
+           <div>Account Name: BANK OF AMERICA</div>
+           <div><strong>SWIFT code: 985798579487</strong></div>
+           </div>
+           
+           </div>
+           
+           <div class="table-responsive-lg">
+           <table class="table table-striped">
+           <thead>
+           <tr>
+           <th class="center color-x1">#</th>
+           <th class="color-x1">Item</th>
+           <th class="color-x1">Description</th>
+           <th class="center color-x1">UNIT</th>
+           <th class="right color-x1">COST</th>
+           <th class="right color-x1">Total</th>
+           </tr>
+           </thead>
+           <tbody>
+           <tr>
+           <td class="center">1</td>
+           <td class="left">Laptops</td>
+           <td class="left">Macbook Air 8GB RAM, 256GB SSD</td>
+           <td class="center">5</td>
+           <td class="right">$900</td>
+           <td class="right">$4500</td>
+           </tr>
+           <tr>
+           <td class="center">2</td>
+           <td class="left">Samsung SSD</td>
+           <td class="left">Samsung SSD(256 GB)</td>
+           <td class="center">20</td>
+           <td class="right">$50</td>
+           <td class="right">$3000</td>
+           </tr>
+           <tr>
+           <td class="center">3</td>
+           <td class="left">PEN DRIVES</td>
+           <td class="left">Samsung Pendrives(32GB)</td>
+           <td class="center">100</td>
+           <td class="right">$10</td>
+           <td class="right">$1000</td>
+           </tr>
+           
+           </tbody>
+           </table>
+           </div>
+           <div class="row">
+           <div class="col-lg-4 col-sm-5 d-flex"><p class="m-auto"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p></div>
+           <div class="col-lg-4 col-sm-5 ms-auto">
+           <table class="table table-clear">
+           <tbody>
+           <tr>
+           <td class="left"><strong class="color-x1">Subtotal</strong></td>
+           <td class="right">$8500</td>
+           </tr>
+           <tr>
+           <td class="left"><strong class="color-x1">Discount (20%)</strong></td>
+           <td class="right">$160</td>
+           </tr>
+           <tr>
+           <td class="left"><strong class="color-x1">VAT (10%)</strong></td>
+           <td class="right">$90</td>
+           </tr>
+           <tr>
+           <td class="left"><strong class="color-x1">Total</strong></td>
+           <td class="right"><strong>$9000</strong></td>
+           </tr>
+           </tbody>
+           </table>
+           
+           
+           
+           </div>
+           </div>
+           </div>
+           </div></div></div>
+        </div>
+
+
+    <!-------------------------------------------------------------------------------------------->
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="../js/margin.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/sales.js"></script>
+    <script src="../js/tables.js"></script>
+    
+</body>
+
+</html>

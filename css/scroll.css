@@ -1,0 +1,93 @@
+ /* width */
+ ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ebebeb; 
+    border-radius: 25px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#D10024; 
+    border-radius: 25px;
+  }
+  
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dddddd; 
+  }
+  
+  ::-webkit-scrollbar:horizontal{
+    height: 8px;
+  
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background:#D10024; 
+          border-radius: 10px;
+          
+      }
+
+      /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      .tit{
+          font-size: 1.3rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem;
+          font-weight: 600;
+      }
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      .tit{
+          font-size: 1.5rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem;
+          font-weight: 600;
+      }
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .tit{
+          font-size: 1.7rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem !important;
+          font-weight: 600 !important;
+      }
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .tit{
+          font-size: 2rem !important;
+          font-weight: 600 !important;
+      }
+      .tit-x{
+          font-size: 1.3rem !important;
+          font-weight: 600 !important;
+      }
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      .tit{
+          font-size: 2rem !important;
+          font-weight: 600 !important;
+      }
+      .tit-x{
+          font-size: 1.3rem !important;
+          font-weight: 600 !important;
+      }
+    }    

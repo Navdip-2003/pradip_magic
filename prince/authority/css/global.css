@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.color-x1{
+    color:#D10024;
+  }
+  .btn-bg-x1{
+    border: 2px solid #D10024;
+    color:#D10024;
+  }
+  .btn-bg-x1:hover{
+    border: 2px solid #b5011f;
+    background-color: #e5e5e5;
+    color:#D10024;
+  }  
+  a:hover, a:focus {
+    color: #D10024;
+    text-decoration: none;
+    outline: none;
+  }
+  .bg-x1{
+    background-color: #D10024;
+    color:#eee;
+  }
+  .bg-x1:hover{
+    background-color: #b5011f;
+    color:#eee;
+  }
+  .header {
+   
+    background-color: #15161D;
+  }
+  .top-header {
+  
+    background-color: #1E1F29;
+  }
+  .a-col-x{
+    color:#eee
+  }

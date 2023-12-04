@@ -1,0 +1,32 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.bg-x1{
+    background-color: #D10024;
+    color:#eee;
+}
+.bg-x1:hover{
+    background-color: #b5011f;
+    color:#eee;
+}
+.logo img{
+width: 165px;
+}
+.xc{
+    display: inline-block;
+  }
+  .msg{
+  background-color: #ef3c0b;
+  color: aliceblue;
+}
+.msg p{
+  padding-left: 12px;
+}
+.error {
+  color: red;
+  background-color: #faabab;
+}

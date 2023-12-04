@@ -1,0 +1,382 @@
+body{
+  scroll-behavior: smooth;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.bg-x1{
+    background-color: #D10024;
+    color:#eee;
+}
+.bg-x1:hover{
+    background-color: #b5011f;
+    color:#eee;
+}
+.logo img{
+width: 165px;
+}
+.xc{
+    display: inline-block;
+  }
+  .msg{
+  background-color: #ef3c0b;
+  color: aliceblue;
+}
+.msg p{
+  padding-left: 12px;
+}
+.error {
+  color: red;
+}
+
+.succ{
+  /* background-color: rgb(1, 239, 80); */
+  color: green;
+  padding-left: 15px;
+  margin-bottom: 7px;
+}
+.map{
+  height: 74vh;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.co-icon{
+  height: 45px;
+  width: 45px;
+  background-color: #D10024;
+  border-radius: 25px;
+}
+.iconX{
+  color:#eee;
+  font-size: 20px;
+}
+.textX{
+  font-weight: 500;
+  font-size: 18px;
+}
+.addX{
+  margin-left: 45px;
+}
+.sgx{
+  font-size: 14px;
+}
+.card-bg{
+  background-color: rgb(242, 242, 242);
+}
+.hgs{
+  height: 50px;
+}
+.hgsx{
+  height: 42px;
+  align-items: center;
+  border-bottom: 1.5px solid rgb(210, 210, 210);
+}
+
+.x{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.a_image{
+  width: 50%;
+}
+.about {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.feature {
+  padding-top: 0px !important; 
+padding-bottom: 0px !important; 
+}
+.feature .single-box .part-icon img {
+  height: 40px !important;
+  margin-bottom: 15px;
+}
+
+.ulx {
+  padding: 0px !important;
+  margin-bottom: -6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-top: none !important;
+  margin-top: 15px !important;
+}
+
+.mission {
+  padding-top: 15px !important;
+  padding-bottom: 10px !important; 
+}
+
+.accordion-borderless .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #fcdbe1 !important;
+  color: #D10024;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+ 
+  background-image: url("../img/add.png");
+
+}
+.accordion-button {
+ 
+padding: 12px !important;
+border-bottom: 1px solid rgb(184, 184, 184);
+border-radius: 0px !important;
+
+}
+.accordion-button:not(.collapsed):after {
+  background-image:url("../img/minus.png");
+ 
+}
+
+/*user profile css*/
+
+.li-hover{
+  color: #D10024;
+  background-color: #fcdbe1;
+  border-radius: 2px solid #D10024;
+}
+
+.li-hover-x:hover{
+  color: #D10024;
+  background-color: #fcdbe1;
+  border-radius: 2px solid #D10024;
+}
+
+.bg-x1-light{
+  background-color: #fcdbe1;
+}
+.border-rx{
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #D10024;
+  height: 100%;
+  width: 100%;
+}
+.not-fication{
+  height: 500px;
+  overflow-y: scroll;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+}
+
+.img-logo{
+  height: 55px;
+  width: 55px;
+}
+.co-message{
+  height: 100%;
+  width: calc(100% - 195px);
+  
+}
+.borx{
+  border-bottom: 1.5px solid rgb(210, 210, 210);
+}
+.btnx-w{
+  width: 140px;
+}
+.hei-x{
+  height: 35px;
+  width: 60px;
+}
+.hide-xy{
+  height: 20px;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.nav-tabs .nav-link.active {
+  color: #D10024 !important;
+  border-bottom: 1.6px solid #D10024;
+  background-color:  rgb(240, 240, 240) !important;
+}
+.w-50x{
+  width: 150px;
+}
+.track-line {
+height: 2px !important;
+background-color: #D10024;
+opacity: 1;
+}
+
+.dot {
+height: 10px;
+width: 10px;
+margin-left: 3px;
+margin-right: 3px;
+margin-top: 0px;
+background-color:#D10024;
+border-radius: 50%;
+display: inline-block
+}
+
+.big-dot {
+height: 25px;
+width: 25px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+background-color: #D10024;
+border-radius: 50%;
+display: inline-block;
+}
+
+.big-dot i {
+font-size: 12px;
+}
+
+.card-stepper {
+z-index: 0
+}
+.dilX{
+  background-color: #eee !important;
+}
+.dilx-c{
+  color: gray !important;
+}
+.h-textarea{
+  height: 170px;
+  resize: vertical;
+}
+
+.bil-l-logo{
+  width: 130px;
+}
+
+/*=======notification page ====*/
+
+.notX{
+  background-image: url("./img/lo&rg/Email-campaign-amico2.png");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+
+}
+.input .disabled{
+  background-color: #b5011f;
+}
+.rew-x{
+  min-height: 350px;
+  max-height: auto;
+
+}
+ /* width */
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebebeb; 
+  border-radius: 25px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#D10024; 
+  border-radius: 25px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd; 
+}
+
+::-webkit-scrollbar:horizontal{
+  height: 8px;
+
+}
+::-webkit-scrollbar-thumb:horizontal{
+  background:#D10024; 
+        border-radius: 10px;
+        
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      .tit{
+          font-size: 1.3rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem;
+          font-weight: 600;
+      }
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      .tit{
+          font-size: 1.5rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem;
+          font-weight: 600;
+      }
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .tit{
+          font-size: 1.7rem;
+          font-weight: 600;
+      }
+      .tit-x{
+          font-size: 1rem !important;
+          font-weight: 600 !important;
+      }
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .tit{
+          font-size: 2rem !important;
+          font-weight: 600 !important;
+      }
+      .tit-x{
+          font-size: 1.3rem !important;
+          font-weight: 600 !important;
+      }
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      .tit{
+          font-size: 2rem !important;
+          font-weight: 600 !important;
+      }
+      .tit-x{
+          font-size: 1.3rem !important;
+          font-weight: 600 !important;
+      }
+    }
+
+    .form-outline .form-control {
+      min-height: auto;
+      padding: 0.32rem 0.75rem;
+       border: 1 !important; 
+      background: transparent;
+      transition: all .2s linear;
+  }

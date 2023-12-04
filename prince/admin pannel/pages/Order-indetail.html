@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/5295a543c2.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/dashbord.css">
+
+    <title>Order Details</title>
+</head>
+
+<body>
+
+    <!---------nevbar---------->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  top-header px-lg-4 py-lg-3 position-sticky top-0 z-index">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" id="eventX" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false"
+                value="false" aria-label="Toggle navigation" onclick="getX(this)">
+                <i class="fas fa-bars color-x1"></i>
+            </button>
+
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <div class="d-flex justify-content-center d-lg-block">
+                    <a class="navbar-brand mt-2  mt-lg-0" href="#">
+                        <img src="../img/magicpin-logo2.png" height="40" alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                </div>
+
+
+                <div class="d-flex m-auto justify-content-center mt-4 mt-lg-auto">
+                    <div class=" m-auto">
+                        <form action="" class="form-group">
+                            <div class="d-flex search-x-round">
+                                <input type="text" class="form-control rounded-0" placeholder="Search...">
+                                <button class="btn bg-x1 rounded-0">search</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="d-lg-none" id="Sharp-X">
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse mt-4 " id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+
+                    <!-- Left links -->
+                    <div class="navbar-nav  mb-lg-0">
+
+                        <div class="nav-item m-auto">
+                            <button class="btn bg-x1" type="button" data-mdb-toggle="offcanvas"
+                                data-mdb-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                menu option
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Left links -->
+                </div>
+
+            </div>
+
+            <!-- Collapsible wrapper -->
+
+            <div class="d-flex ms-auto  my-lg-auto " id="targetX">
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+
+                    <!-- Avatar -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                            id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="d-flex">
+                                <p class="m-0 me-2 a-col-x">My Account </p>
+                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                    height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                <p class="a-col-x m-0"><span><i class="fa-solid fa-caret-down ms-2"></i></span></p>
+                            </div>
+
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                            <li>
+                                <a class="dropdown-item" href="#">My profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+
+
+            </div>
+
+
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+    <!---------nevbar---------->
+
+    <!------------left nevbar ---------------------->
+
+    <div class="left-x-nev header d-none d-lg-block p-4 pt-2">
+        <a href="./dashbord.html">
+            <div class="d-flex p-3 border-bottom  hover-x ">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+        <a href="./orders.html">
+            <div class="d-flex p-3 border-bottom  hover-x active-page">
+                <p class="m-auto">Orders</p>
+            </div>
+        </a>
+        <a href="./Add-product.html">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Add products</p>
+            </div>
+        </a>
+        <a href="./Products.html">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Products</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="d-flex p-3 border-bottom  hover-x">
+                <p class="m-auto">Dashbord</p>
+            </div>
+        </a>
+    </div>
+
+    <!------------left nevbar end---------------------->
+
+    <div class="d-flex">
+        <div class="  hero-section-xr ms-auto">
+            <div class="p-4">
+                <div class="d-flex">
+                    <a href="./orders.html" class="color-x1">
+                        <p><span class="me-2"><i class="fa-solid fa-arrow-left"></i></span>Back to Orders</p>
+                    </a>
+                </div>
+                <!--------main section-------------->
+                <div class="row row-cols-1 justify-content-center row-cols-xl-2 row-cols-md-2 row-cols-lg-1
+                px-md-3 px-lg-5 p-xl-0 g-4">
+                    <div class="col">
+                        <div class="card border">
+                            <div class="card-body p-5">
+
+                                <p class="lead fw-bold mb-5 color-x1">Manage Order</p>
+
+                                <div class="row">
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Date</p>
+                                        <p>10 April 2021</p>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <p class="small text-muted mb-1">Order No.</p>
+                                        <p>012j1gvs356c</p>
+                                    </div>
+                                </div>
+
+                                <div class="mx-n5 px-5 py-4" style="background-color: #f2f2f2;">
+                                    <div class="row">
+                                        <div class="col-md-8 col-lg-9">
+                                            <p>BEATS Solo 3 Wireless Headphones</p>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <p>£299.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8 col-lg-9">
+                                            <p class="mb-0">Shipping</p>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <p class="mb-0">£33.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row my-4">
+                                    <div class="col-md-4 offset-md-8 col-lg-3 offset-lg-9">
+                                        <p class="lead fw-bold mb-0 color-x1">£262.99</p>
+                                    </div>
+                                </div>
+
+                                <p class="lead fw-bold mb-3 pb-2 color-x1">Order Address</p>
+
+                                <address>129,tapidarshan nana varachha surat,395006</address>
+
+                               <div class="d-flex justify-content-between align-items-center">
+                                 <p class="mb-0">View bill Recipt</p>
+                                 <a href="./view-order.html"><button class="btn btn-bg-x1 btn-sm">view</button></a>
+                               </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" border p-5 card shadow-0">
+                            <div class="">
+                                <div class="progress" style="height: 6px; border-radius: 16px;">
+                                    <div class="progress-bar progress-bar-striped bg-x1" role="progressbar"
+                                        style="width: 50%; border-radius: 16px; " aria-valuenow="65" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                                <div class="d-flex justify-content-between mb-1 mt-1">
+                                    <p class="text-muted mt-1 mb-0 ">Processing</p>
+                                    <p class="text-muted mt-1 mb-0 ">Shipping</p>
+                                    <p class="text-muted mt-1 mb-0 ">Delivered</p>
+                                </div>
+                            </div>
+
+                            <form action="" class="mt-4" >
+                                <select class="form-control" >
+                                  
+                                    <option value="1" >Processing</option>
+                                    <option value="2" selected >Shipping</option>
+                                    <option value="3">Delivered</option>
+                                  </select>
+
+                                  <input type="submit" class="btn btn-block bg-x1 mt-3" value="CHANGE STATUS">
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--------main section-------------->
+            </div>
+        </div>
+    </div>
+
+    <!------------left nevbar ---------------------->
+
+
+    <!----------small screen nevbar--------------->
+
+
+    <div class="offcanvas offcanvas-start wide-x" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+
+
+        <!---------smaller left nevbar----------->
+        <div class="left-x-nev header d-lg-none">
+
+            <div class="offcanvas-header d-flex ">
+                <div class="close-cx ms-auto">
+                    <button type="button" class="btn bg-x1 btn-sm button-cx p-0 " data-mdb-dismiss="offcanvas"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="p-4 pt-0">
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="d-flex p-3 border-bottom  hover-x">
+                        <p class="m-auto">Dashbord</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-------------------------------------------------------------------------------------------->
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="../js/margin.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/sales.js"></script>
+
+</body>
+
+</html>
